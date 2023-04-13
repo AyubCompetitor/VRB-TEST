@@ -48,7 +48,7 @@ app.get("/user", async (req, res) => {
     console.error(err);
     res
       .status(400)
-      .send(`Ошибка при сохранении пользователя! >>> ${err.message}`);
+      .send(`Ошибка при добавлении пользователя! >>> ${err.message}`);
   }
 });
 
