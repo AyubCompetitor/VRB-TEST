@@ -1,5 +1,5 @@
 CREATE TABLE users(
-    id VARCHAR(255) NOT NULL PRIMARY KEY,
+    id SERIAL PRIMARY KEY,
     gender VARCHAR(10) NOT NULL,
     first_name VARCHAR(100) NOT NULL,
     last_name VARCHAR(100) NOT NULL,
